@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #C66969;
+    overflow: hidden;
+}
+
+.head{
+    position: absolute;
+    top: 4%;
+    left: 45%;
+    transform: translate(-45%, -4%);
+    margin: auto;
+}
+
+#head{
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    border-radius: 20px;
+    background: #e9966a;
+}
+
+#logo{
+    transform: rotate(-5deg);
+    height: 140px;
+    width: 180px;
+}
+
+#content{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    transform: translate(-30%, -10%);
+}
+
+#botHead{
+    position: fixed;
+    height: 60px;
+    width: 60px;
+    background-image: url('./Imgs/bot.png');
+    border: none;
+    border-radius: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#botMsg{
+    font-size: 22px;
+    padding: 4px;
+    margin-left: 94px;
+    margin-top: 24px;
+    background-color: #ee6363;
+    border: none;
+    border-radius: 20px;
+}
+
+#Vcommand{
+    position: absolute;
+    bottom: 10%;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    background-color: none;
+    margin: auto;
+    width: 100%;
+}
+
+.Tcommand{
+    position: absolute;
+    bottom: 1%;
+    left: 32%;
+    transform: rotate(-32%, -1%);
+    margin: auto;
+    background-color: #c66939;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#Tcommand{
+    width: 380px;
+    height: 14px;
+    background-color: #cee414;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    font-size: 20px;
+    padding: 2px;
+    opacity: 0.5;
+} 
+
+#Tcommand::placeholder{
+    font-size: 15px;
+    color: purple;
+    text-align: center;
+}
+
+#Tcommand:focus{
+    opacity: 0.8;
+}
